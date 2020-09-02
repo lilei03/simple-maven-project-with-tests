@@ -2,7 +2,7 @@ node('master') {
     // some block
 stage('preparation') {
     // some block
-git 'https://github.com/jglick/simple-maven-project-with-tes ts.git'
+git 'https://github.com/jglick/simple-maven-project-with-tests.git'
 }
 stage('Build') {
     // some block
